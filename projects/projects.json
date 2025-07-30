@@ -1,0 +1,53 @@
+[
+  {
+  "name": "Product & Category Management API",
+  "desc": "A robust RESTful backend application for managing products and categories using Spring Boot, JPA, and Hibernate with CRUD operations, DTOs, and Swagger documentation.",
+  "image": "product-category.png",
+  "category": "backend",
+  "links": {
+    "view": "#",
+    "code": "https://github.com/tanviralam9110/Spring-Boot-Project-Product-Category"
+  }
+},
+
+  {
+    "name": "Banking Application",
+    "desc": "A secure RESTful web application with account creation, deposits, withdrawals, and balance inquiry features using Java and Spring Boot.",
+    "image": "banking.png",
+    "category": "backend",
+    "links": {
+      "view": "#",
+      "code": "https://github.com/tanviralam9110/Banking-Application"
+    }
+  },
+  {
+    "name": "E-Commerce Website",
+    "desc": "A full-stack shopping site with user login, product listings, and cart functionality using Spring Boot, MySQL, HTML, CSS, and JavaScript.",
+    "image": "ecommerce.png",
+    "category": "fullstack",
+    "links": {
+      "view": "#",
+      "code": "https://github.com/tanviralam9110/E-commerce-Website"
+    }
+  },
+  {
+    "name": "Hotel Reservation System",
+    "desc": "A Java-JDBC based application to manage hotel bookings with CRUD operations connected to a MySQL database.",
+    "image": "hotel.png",
+    "category": "corejava",
+    "links": {
+      "view": "",
+      "code": "https://github.com/tanviralam9110/Hotel-Reservation-System"
+    }
+  },
+  {
+    "name": "Portfolio Website",
+    "desc": "A personal portfolio created using HTML, CSS, and JavaScript to showcase skills, projects, and contact details.",
+    "image": "portfolio.png",
+    "category": "frontend",
+    "links": {
+      "view": "https://tanviralam9110.github.io/Tanvir_Portfolio/",
+      "code": "https://github.com/tanviralam9110/Tanvir_Portfolio"
+    }
+  }
+]

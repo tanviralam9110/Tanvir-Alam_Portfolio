@@ -1,7 +1,7 @@
 [
   {
   "name": "Product & Category Management API",
-  "desc": "A robust RESTful backend application for managing products and categories using Spring Boot, JPA, and Hibernate with CRUD operations, DTOs, and Swagger documentation.",
+  "desc": "Spring Boot REST API with JPA & Hibernate for products and categories, featuring CRUD, DTOs, and Swagger.",
   "image": "product-category.png",
   "category": "backend",
   "links": {
@@ -42,7 +42,7 @@
   },
   {
     "name": "Portfolio Website",
-    "desc": "A personal portfolio created using HTML, CSS, and JavaScript to showcase skills, projects, and contact details.",
+    "desc": "A responsive personal portfolio website built with HTML, CSS, and JavaScript to present my skills, highlight projects, and provide contact information in a clean and user-friendly design..",
     "image": "portfolio.png",
     "category": "frontend",
     "links": {

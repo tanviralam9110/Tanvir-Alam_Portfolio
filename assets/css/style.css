@@ -1006,7 +1006,7 @@ header .navbar ul li a:hover {
 }
 
 .work h2 {
-  color: #efeaea;
+  color: #ffffff;
   text-align: center;
   font-size: 2.8rem;
   font-weight: 700;
@@ -1306,6 +1306,108 @@ header .navbar ul li a:hover {
     left: 0%;
   }
 }
+
+
+/* certification section starts */
+.certification {
+  background: linear-gradient(to bottom, #6b6b83, #3b3b98);
+  padding: 5rem 8%;
+  text-align: center;
+}
+
+.certification .heading {
+  font-size: 3.5rem;
+  font-weight: 700;
+  color: #fff;
+  margin-bottom: 3rem;
+}
+
+.certification .heading span {
+  color: #ffd369;
+}
+
+.certification-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 2.5rem;
+}
+
+.certificate-box {
+  background: #fff;
+  border-radius: 1.2rem;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.15);
+  padding: 2.5rem 2rem;
+  transition: all 0.35s ease;
+  position: relative;
+  overflow: hidden;
+}
+
+.certificate-box::before {
+  content: "";
+  position: absolute;
+  top: -50%;
+  left: -50%;
+  width: 200%;
+  height: 200%;
+  background: linear-gradient(135deg, #ff9a9e, #fad0c4, #fad390);
+  transform: rotate(25deg);
+  opacity: 0;
+  transition: opacity 0.35s ease;
+  z-index: 0;
+}
+
+.certificate-box:hover::before {
+  opacity: 0.1;
+}
+
+.certificate-box:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.25);
+}
+
+.certificate-box .logo {
+  font-size: 4.5rem;
+  margin-bottom: 1.5rem;
+  z-index: 1;
+  position: relative;
+}
+
+.certificate-box .content {
+  position: relative;
+  z-index: 1;
+}
+
+.certificate-box .content h3 {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 0.8rem;
+  color: #222;
+}
+
+.certificate-box .content p {
+  font-size: 1.4rem;
+  color: #555;
+  margin-bottom: 1.5rem;
+}
+
+.certificate-box .btn {
+  display: inline-block;
+  padding: 0.8rem 2rem;
+  font-size: 1.4rem;
+  font-weight: 600;
+  border-radius: 0.6rem;
+  color: #fff;
+  background: #3b3b98;
+  transition: 0.3s;
+  text-decoration: none;
+}
+
+.certificate-box .btn:hover {
+  background: #ffd369;
+  color: #000;
+}
+/* certification section ends */
+
 
 
 
